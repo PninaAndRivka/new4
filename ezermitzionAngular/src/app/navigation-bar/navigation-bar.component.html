@@ -1,0 +1,18 @@
+<ul>
+<li routerLink="Home" routerLinkActive="router-link-active"  class="active">Home </li>
+<!--<li *ngIf="f('/Volunteers')">Forms</li>   !-->
+<!--<li *ngIf="f('/Volunteers')">Apprentice details</li>   !-->
+
+<li routerLink="UserLog">Personal area</li>
+<li class="dropdown" > Regustration
+          <div class="dropdown-content">
+          <div routerLink="Volunteers">volunteers</div>
+          <div routerLink="Apprentices">apprentice</div>
+         
+        </div>
+ </li>
+<li >Common questions</li>
+</ul>
+
+<router-outlet></router-outlet>
+
