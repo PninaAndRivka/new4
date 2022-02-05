@@ -1,3 +1,6 @@
+import { ChangeUserNameComponent } from './../change-user-name/change-user-name.component';
+import { AddNewUserComponent } from './../add-new-user/add-new-user.component';
+import { ChangeUserComponent } from './../change-user/change-user.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
@@ -17,7 +20,7 @@ import { WebmasterComponent } from '../webmaster/webmaster.component';
 
 
 const appRoutes:Routes=[
-//{path:'', component:HomeComponent},
+{path:'', component:HomeComponent},
 //{
 //path:'NavigationBar', component:NavigationBarComponent,
 //children:[{path:'Home', component:HomeComponent}]},
@@ -40,9 +43,14 @@ const appRoutes:Routes=[
     {path:'changePassword', component: ChangePasswordComponent},
     {path:'UsersManagement', component: UsersManagementComponent},
     {path:'EnteringInformation', component: EnteringInformationComponent},
-    {path:'Webmaster', component:WebmasterComponent}
+    {path:'Webmaster', component:WebmasterComponent},
+    {path:'changeUser', component:ChangeUserComponent},
+    {path:'addNewUser', component:AddNewUserComponent},
+    {path:'changeUserName', component:ChangeUserNameComponent},
 
-//{path:'**', component:ErrorComponent}
+
+
+{path:'**', component:ErrorComponent}
 ]
 
 

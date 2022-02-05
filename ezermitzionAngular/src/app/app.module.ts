@@ -19,6 +19,9 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
 import { WebmasterComponent } from './webmaster/webmaster.component';
 import { UsersManagementComponent } from './users-management/users-management.component';
 import { EnteringInformationComponent } from './entering-information/entering-information.component';
+import { ChangeUserComponent } from './change-user/change-user.component';
+import { AddNewUserComponent } from './add-new-user/add-new-user.component';
+import { ChangeUserNameComponent } from './change-user-name/change-user-name.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,11 @@ import { EnteringInformationComponent } from './entering-information/entering-in
     ChangePasswordComponent,
     WebmasterComponent,
     UsersManagementComponent,
-    EnteringInformationComponent
+    EnteringInformationComponent,
+    
+    ChangeUserComponent,
+          AddNewUserComponent,
+          ChangeUserNameComponent
   ],
   imports: [
     BrowserModule,
